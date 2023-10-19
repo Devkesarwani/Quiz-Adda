@@ -1,0 +1,33 @@
+<%- include('partials/header') %>
+
+  <form action="" method="post">
+    <main class="container"
+      style="margin-top: 80px; margin-bottom: 80px; padding-left: 20px; padding-right: 20px; width: 500px;">
+      <div class="bg-light p-5 rounded shadow-lg p-3 mb-5 bg-body rounded">
+
+        <h2 style="display: inline-block;">Welcome to</h2>
+        <h2 style="display: inline-block; color: darkmagenta; margin: 0; padding-left: 3px;">Quiz Adda</h2>
+        <br>
+
+        <h4 class="h4 mb-3 fw-normal text-muted">Please sign in</h4>
+
+        <div class="form-floating" style="margin-bottom: 4px;">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="checkEmail">
+          <label for="floatingInput">Email address</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="checkPassword">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <br>
+        <button class="w-100 btn btn-lg btn-info" type="submit">Sign in</button>
+
+      </div>
+
+    </main>
+
+  </form>
+
+  <%- include('partials/footer') %>
