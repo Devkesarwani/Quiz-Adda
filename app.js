@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const validator = require("validator");
 require("dotenv").config();
-const BASE_URL = process.env.BASE_URL;
+const BASE_URL = process.env.BASE_URL || 3000;
 
 const mongoose = require("mongoose");
 const mongoURL = process.env.MONGO_URL;
