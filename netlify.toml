@@ -6,4 +6,4 @@
 [[redirects]]
   from = "https://6532690cd2a147103d15aff0--starlit-kangaroo-2a48c7.netlify.app/"
   to = "http://localhost:3000"
-  status = 301 // Permanent redirect
+  status = 301 
