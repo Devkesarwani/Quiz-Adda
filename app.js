@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const validator = require("validator");
 require("dotenv").config();
-const BASE_URL = process.env.BASE_URL || 3000;
 
 const mongoose = require("mongoose");
 const mongoURL = process.env.MONGO_URL;
@@ -158,8 +157,8 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
-app.listen(BASE_URL, function () {
-  console.log(`Server is running on port http://localhost:${BASE_URL}`);
+app.listen(3000, function () {
+  console.log(`Server is running on port http://localhost:${3000}`);
 });
 
 //middleware-- request response cycle
