@@ -1,4 +1,4 @@
 [build]
-  base = "Quiz-App"
-  command = "node ./build.js"
+  base = "QUIZ-APP"
+  command = "node build.js"
   publish = "public"
