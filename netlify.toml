@@ -1,4 +1,4 @@
 [build]
   base = "Quiz-adda"
-  command = "node ./build.js"
+  command = "node D:/WEB_DEV/Quiz-app/build.js"
   publish = "public"
